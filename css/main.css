@@ -33,16 +33,18 @@ header {
     "left centre right"
     ". center .";
   margin-bottom: 1.5rem;
+  background-color: #bd027d;
+  min-height: 6em;
 }
 
 header h1 {
+  margin-top: -2.5em;
   grid-area: center;
   margin: 0;
   z-index: 0;
 }
 
 nav {
-  background-color: #bd027d;
   grid-column: 1 /-1;
   grid-row: 1;
 }
