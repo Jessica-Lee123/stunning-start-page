@@ -33,18 +33,17 @@ header {
     "left centre right"
     ". center .";
   margin-bottom: 1.5rem;
-  background-color: #bd027d;
-  min-height: 6em;
+
 }
 
 header h1 {
   grid-area: center;
   margin: 0;
-  margin-top: -2.5em;
   z-index: 0;
 }
 
 nav {
+  background-color: #bd027d;
   grid-column: 1 /-1;
   grid-row: 1;
 }
@@ -66,6 +65,7 @@ nav a {
   border: 2px solid #960062;
   border-radius: 6px;
   color: #eccee2;
+  font-family: "PT Sans Narror", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
@@ -73,7 +73,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ccc;
+  background-color: #960062;
 }
 
 main {
@@ -87,8 +87,8 @@ main p {
 
 section {
   padding: 1.5rem 0;
-  border-bottom: 2px #afafaf;
-  border-top: 2px #afafaf;
+  border-bottom: 2px solid #afafaf;
+  border-top: 2px solid #afafaf;
 }
 
 h2 {
@@ -142,7 +142,7 @@ section div {
   justify-self: end;
   background-color: rgba(0, 0, 0, .1);
   border-radius: 1em 0 0 1em;
-  padding: 0 .5em;
+  padding: .5em;
   margin: .5em 0 0;
   font-style: italic;
 }
