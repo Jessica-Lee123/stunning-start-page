@@ -34,11 +34,11 @@ header {
     ". center .";
   margin-bottom: 1.5rem;
   background-color: #bd027d;
-  min-height: 6em;
+  min-height: 7em;
 }
 
 header h1 {
-  margin-top: -2.5em;
+  margin-top: -3em;
   grid-area: center;
   z-index: 0;
 }
